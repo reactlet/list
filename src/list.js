@@ -1,6 +1,4 @@
-/** @jsx React.DOM */
-
-// list component
+// List Component
 var List = React.createClass({
     name: 'list',
     mixins: [getCommonMixin],
@@ -50,7 +48,7 @@ var List = React.createClass({
     
 });
 
-// list element component
+// List Element Component
 var ListElement = React.createClass({
     name: 'listelement',
     mixins: [getCommonMixin],
