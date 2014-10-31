@@ -1,5 +1,3 @@
-
-
 // list component
 var List = React.createClass({
     name: 'list',
@@ -50,7 +48,7 @@ var List = React.createClass({
     
 });
 
-// list element component
+// List Element Component
 var ListElement = React.createClass({
     name: 'listelement',
     mixins: [getCommonMixin],
