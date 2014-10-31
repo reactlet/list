@@ -1,4 +1,4 @@
-/** @jsx React.DOM */
+
 
 // list component
 var List = React.createClass({
