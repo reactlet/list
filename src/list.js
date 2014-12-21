@@ -86,8 +86,7 @@ var ListElement = React.createClass({
             </div>;
         return (
             <div className={ this.state.containerClassNames.join(' ') }
-                data-id={ this.state.id }
-                >
+                data-id={ this.state.id } >
                 { content }
             </div>
         );
